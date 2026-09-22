@@ -11,6 +11,7 @@ html, body {
 }
 
 .hero {
+    height: 100vh;
     display: flex;
     padding: 100px;
     flex-direction: column;
