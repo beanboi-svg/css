@@ -1,0 +1,53 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    color: #222;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    overflow: hidden;
+}
+
+.hero {
+    display: flex;
+    padding: 100px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.svg {
+    width: auto;
+    height: 100px;
+    fill: #222;
+}
+
+@media (max-width: 768px) {
+    .contain {
+        gap: 15px;
+    }
+
+    .svg {
+        height: 70px;
+    }
+}
+
+@media (max-width: 393px) {
+    .contain {
+        gap: 10px;
+    }
+
+    .svg {
+        height: 45px;
+    }
+}
